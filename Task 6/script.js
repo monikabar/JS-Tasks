@@ -25,3 +25,10 @@ function getUserAverageAge(age){
   console.log(averageAge.toFixed(2));
 };
 getUserAverageAge(users);
+
+
+function getUsersNames(names) {
+  return names.map((names) => names.name);
+}
+
+console.log(getUsersNames(users));
